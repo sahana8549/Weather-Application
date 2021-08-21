@@ -1,0 +1,55 @@
+.background{
+      height: 100vh;
+    width: 100%;
+    background-color: rgba(136,81,204,0.68);
+  }
+  .eather {
+    padding-left: 120px;
+    padding-right: 937px;
+    padding-top: 43px;
+        height: 17px;
+    width: 95px;
+    color: #FFFFFF;
+    font-family: "Hiragino Kaku Gothic Std";
+    font-size: 17.28px;
+    letter-spacing: 2.69px;
+    line-height: 26px;
+  }
+  /* .search-box{
+    width: 100%;
+    background-color: #eee3;
+    padding: 10px;
+    border: 2px solid #eee;
+    position: relative;
+  } */
+  .search-input {
+    box-sizing: border-box;
+    height: 45px;
+    width: 458px;
+    border: 1px solid #FFFFFF;
+    opacity: 0.3;
+    border-radius: 3px;
+    background-color: rgba(255,255,255,0.6);
+    position: absolute;
+    color: #fff;
+    
+  }
+  .search-city {
+    height: 19px;
+    width: 79px;
+    opacity: 0.8;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 19px;
+  }
+  .search-btn{
+    color: #fff;
+    font-size: 22px;
+    position: absolute;
+    right: 5px;
+    top: 2px;
+    background-color: #0000;
+    border: none;
+  }
