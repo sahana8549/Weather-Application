@@ -1,7 +1,6 @@
 .background{
     height: 100vh;
     width: 100vw;
-    background-color: rgba(136,81,204,0.68);
      }
   .eather {
     padding-left: 120px;
@@ -54,4 +53,9 @@
       height: 24px;
       width: 24px;
     
+  }
+  /* navbar*/
+  
+a.nav-link{
+  color: #ffff;    
   }
