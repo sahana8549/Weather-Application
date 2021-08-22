@@ -2,7 +2,7 @@
     height: 100vh;
     width: 100vw;
     background-color: rgba(136,81,204,0.68);
-  }
+     }
   .eather {
     padding-left: 120px;
     padding-right: 937px;
@@ -15,13 +15,10 @@
     letter-spacing: 2.69px;
     line-height: 26px;
   }
-  /* .search-box{
-    width: 100%;
-    background-color: #eee3;
-    padding: 10px;
-    border: 2px solid #eee;
+   .search-box{
+   
     position: relative;
-  } */
+  }
   .search-input {
     box-sizing: border-box;
     height: 45px;
@@ -35,7 +32,8 @@
     
   }
   .search-city {
-    height: 19px;
+
+  height: 19px;
     width: 79px;
     opacity: 0.8;
     color: #FFFFFF;
@@ -52,4 +50,8 @@
     top: 2px;
     background-color: #0000;
     border: none;
+
+      height: 24px;
+      width: 24px;
+    
   }

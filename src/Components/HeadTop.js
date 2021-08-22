@@ -12,8 +12,9 @@ function HeadTop(props) {
                    </Col>
                    <Col md="4">
                         <div className="search-box">
+                            
                             <input placeholder="Search City" className="search-input" name="city"/>    
-                               
+                              
 <button className="search-btn" ><FaSearch/></button>
                         </div>      
                    </Col>
