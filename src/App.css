@@ -1,6 +1,6 @@
 .background{
-      height: 100vh;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     background-color: rgba(136,81,204,0.68);
   }
   .eather {
