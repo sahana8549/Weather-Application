@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Container, Col, Row } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-
-function Navi(props) {
+export default function Navbar() {
   let curDate = Date().toLocaleString();
   const [isHome, setIsHome] = useState(0);
   useEffect(() => {
@@ -14,13 +13,13 @@ function Navi(props) {
       setIsHome(false);
     };
   }, []);
-  const setActive = () => {
+  const toggleActive = () => {
     setIsHome(false);
   };
   return (
     <div>
       <Container>
-        <Row className="nav-row">
+        <Row style={{ marginBottom: "-30px" }}>
           <Col md={6}>
             <ul className="nav-items">
               <li>
@@ -35,18 +34,18 @@ function Navi(props) {
               </li>
               <li>
                 <NavLink
-                  to="/Favourite"
+                  to="/favourites"
                   activeClassName="active-nav"
-                  onClick={setActive}
+                  onClick={toggleActive}
                 >
                   Favourites
                 </NavLink>
               </li>
               <li>
                 <NavLink
-                  to="/Recent"
+                  to="/recents"
                   activeClassName="active-nav"
-                  onClick={setActive}
+                  onClick={toggleActive}
                 >
                   Recent Search
                 </NavLink>
@@ -64,5 +63,3 @@ function Navi(props) {
     </div>
   );
 }
-
-export default Navi;

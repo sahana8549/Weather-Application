@@ -1,16 +1,19 @@
-import React, { Component } from 'react';
-class Home extends Component {
-    constructor(props) {
-        super(props);
+import React, { Component } from "react";
+import Sunny from "../../src/icon_mostly_sunny.png";
 
-    }
-    render() {
-        return (
-            <div>
-<h1>fghjk</h1>
-            </div>
-        );
-    }
+class Home extends Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    return (
+      <div>
+        <h2>Udupi,Karnataka</h2>
+        <img src={Sunny} alt="Sunny" className="center" />
+        <h2 className="temp">84</h2>
+      </div>
+    );
+  }
 }
 
 export default Home;
