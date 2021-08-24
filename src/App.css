@@ -121,3 +121,39 @@ h2 {
   letter-spacing: 0;
   line-height: 75px;
 }
+
+/*fav list*/
+/* .list-group-item {
+  padding: 15px 26px;
+  padding-left: 100px;
+  background-color: transparent;
+  
+} */
+.list-group-item {
+  padding-left: 10px;
+  position: relative;
+  display: block;
+  padding: 1.5rem 4rem;
+  color: #f8f9fa;
+  text-decoration: none;
+  /* background-color: #fff; */
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.card {
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: transparent;
+  background-clip: border-box;
+  /* border: 1px solid rgba(0, 0, 0, 0.125); */
+  /* border-radius: 0.25rem; */
+}
+.list-group,
+.list-group-flush {
+  background-color: transparent;
+}
+.list-group-item {
+  background-color: transparent;
+}
